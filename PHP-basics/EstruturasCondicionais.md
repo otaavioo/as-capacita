@@ -18,6 +18,8 @@ if ($numero > 5) {
 ?>
 ```
 
+> Existe também a notação curta, com delimitadores `:` (dois pontos).
+
 ### switch ... case
 
 ```php
