@@ -36,3 +36,7 @@ switch ($numero) {
 
 ?>
 ```
+
+[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/Variaveis.md)
+|
+[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/EstruturasRepeticao.md)
