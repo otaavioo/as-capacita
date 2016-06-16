@@ -5,6 +5,8 @@
 
 echo 'Esta mensagem será exibida na tela';
 
+// ou
+
 echo "Esta mensagem será exibida na tela";
 
 ?>
