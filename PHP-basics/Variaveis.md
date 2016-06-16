@@ -22,7 +22,7 @@ $fruta = "abacate";
 ```php
 <?php
 
-$numeroInteiro = 5;
+$numero = 5;
 
 ?>
 ```
@@ -32,7 +32,7 @@ $numeroInteiro = 5;
 ```php
 <?php
 
-$pontoFlutuante = 5.3;
+$numero = 5.3;
 
 ?>
 ```
