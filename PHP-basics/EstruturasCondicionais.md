@@ -7,10 +7,12 @@
 
 $numero = 5;
 
-if ($numero == 5) {
-    echo 'O número é 5';
+if ($numero > 5) {
+    echo 'O número é maior que 5';
+} else if ($numero < 5) {
+    echo 'O número é menor que 5';
 } else {
-    echo 'O número é diferente de 5';
+    echo 'O número é igual a 5';
 }
 
 ?>
