@@ -42,6 +42,26 @@ for ($contador = 0; $contador < 10; $contador++) {
 ?>
 ```
 
+### foreach
+
+```php
+<?php
+
+$usuarios = ['Usuário 1', 'Usuário 2', 'Usuário 3'];
+
+foreach ($usuarios as $usuario) {
+    echo $usuario, '<br>';
+}
+
+// ou
+
+foreach ($usuarios as $chave => $usuario) {
+    echo $chave, ': ', $usuario, '<br>';
+}
+
+?>
+```
+
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/EstruturasCondicionais.md)
 |
 [Início](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/README.md)
