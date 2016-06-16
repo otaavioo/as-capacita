@@ -41,6 +41,18 @@ switch ($numero) {
 ?>
 ```
 
+### Ternário
+
+```php
+<?php
+
+$numero = 5;
+
+$resposta = ($numero > 5) ? 'Maior que 5' : 'Menor ou igual a 5';
+
+?>
+```
+
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/Variaveis.md)
 |
 [Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/EstruturasRepeticao.md)
