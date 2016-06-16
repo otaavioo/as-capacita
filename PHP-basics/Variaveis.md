@@ -72,8 +72,12 @@ $usuario = [
     'email' => 'emaildousuario@dominio.com',
 ];
 
-// Definindo como array e depois preenchendo.
+?>
+```
 
+Definindo um array para preencher depois.
+
+```php
 $frutas = [];
 $frutas[] = 'maçã';
 $frutas[] = 'banana';
@@ -83,6 +87,4 @@ $usuario = [];
 $usuario['id'] = 1;
 $usuario['nome'] = 'Nome do usuário';
 $usuario['email'] = 'emaildousuario@dominio.com';
-
-?>
 ```
