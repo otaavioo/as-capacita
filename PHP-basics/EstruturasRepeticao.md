@@ -41,3 +41,7 @@ for ($contador = 0; $contador < 10; $contador++) {
 
 ?>
 ```
+
+[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/EstruturasCondicionais.md)
+|
+[Início](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/README.md)
