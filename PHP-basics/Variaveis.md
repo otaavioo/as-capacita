@@ -89,6 +89,6 @@ $usuario['nome'] = 'Nome do usuário';
 $usuario['email'] = 'emaildousuario@dominio.com';
 ```
 
-[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/Comentarios.md)
+[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/Comentarios.md#comentarios)
 |
-[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/EstruturasCondicionais.md)
+[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/EstruturasCondicionais.md#estruturas-condicionais)
