@@ -24,4 +24,4 @@ Todas as linhas escritas aqui não serão interpretadas.
 
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/ImprimindoEmTela.md#imprimindo-valores-em-tela)
 |
-[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/Variaveis.md#variaveis)
+[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/Variaveis.md#variáveis)
