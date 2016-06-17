@@ -5,7 +5,7 @@
 ```php
 <?php
 
-$contator = 0;
+$contador = 0;
 
 while ($contador < 10) {
     echo $contador, '<br>';
@@ -20,7 +20,7 @@ while ($contador < 10) {
 ```php
 <?php
 
-$contator = 0;
+$contador = 0;
 
 do {
     echo $contador, '<br>';
