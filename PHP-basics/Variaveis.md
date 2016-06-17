@@ -14,7 +14,6 @@ $fruta = 'abacate';
 // ou
 
 $fruta = "abacate";
-?>
 ```
 
 ### int
@@ -23,8 +22,6 @@ $fruta = "abacate";
 <?php
 
 $numero = 5;
-
-?>
 ```
 
 ### float
@@ -34,7 +31,6 @@ $numero = 5;
 
 $numero = 5.3;
 
-?>
 ```
 
 ### boolean (`true` e `false`)
@@ -48,7 +44,6 @@ $bool = true;
 
 $bool = false;
 
-?>
 ```
 
 ### array
@@ -58,7 +53,6 @@ $bool = false;
 
 $frutas = ['maçã', 'banana', 'laranja'];
 
-?>
 ```
 
 ### array associativo
@@ -72,7 +66,6 @@ $usuario = [
     'email' => 'emaildousuario@dominio.com',
 ];
 
-?>
 ```
 
 Definindo um array para preencher depois.
@@ -90,7 +83,6 @@ $usuario['id'] = 1;
 $usuario['nome'] = 'Nome do usuário';
 $usuario['email'] = 'emaildousuario@dominio.com';
 
-?>
 ```
 
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/Comentarios.md#comentários)
