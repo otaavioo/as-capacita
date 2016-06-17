@@ -12,7 +12,6 @@ while ($contador < 10) {
     $contador++;
 }
 
-?>
 ```
 
 ### do ... while
@@ -27,7 +26,6 @@ do {
     $contador++;
 } while ($contador < 10);
 
-?>
 ```
 
 ### for
@@ -39,7 +37,6 @@ for ($contador = 0; $contador < 10; $contador++) {
     echo $contador, '<br>';
 }
 
-?>
 ```
 
 ### foreach
@@ -59,7 +56,6 @@ foreach ($usuarios as $chave => $usuario) {
     echo $chave, ': ', $usuario, '<br>';
 }
 
-?>
 ```
 
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/EstruturasCondicionais.md#estruturas-condicionais)
