@@ -22,6 +22,6 @@ Todas as linhas escritas aqui não serão interpretadas.
 ?>
 ```
 
-[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/ImprimindoEmTela.md)
+[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/ImprimindoEmTela.md#imprimindo-valores-em-tela)
 |
-[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/Variaveis.md)
+[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/Variaveis.md#variaveis)
