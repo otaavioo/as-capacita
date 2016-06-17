@@ -1,4 +1,4 @@
-# PHP Básico.
+# PHP Básico
 
 1. [Tags](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/Tags.md#tags)
 2. [Imprimindo valores na tela](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/ImprimindoEmTela.md#imprimindo-valores-em-tela)
