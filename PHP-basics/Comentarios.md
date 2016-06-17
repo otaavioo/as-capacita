@@ -7,7 +7,6 @@ Uma linha
 
 // Este é um comentário de linha única.
 
-?>
 ```
 
 ou
@@ -17,7 +16,6 @@ ou
 
 # Mais um comentário de linha única.
 
-?>
 ```
 
 Várias linhas
@@ -31,7 +29,6 @@ Não importa quantas linhas sejam escritas aqui.
 Todas as linhas escritas aqui não serão interpretadas.
 */
 
-?>
 ```
 
 PHPDoc
@@ -45,7 +42,6 @@ PHPDoc
  * @author: Nome do autor <emailautor@dominio.com>
  */
 
-?>
 ```
 
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/ImprimindoEmTela.md#imprimindo-valores-em-tela)
