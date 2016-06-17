@@ -15,7 +15,6 @@ if ($numero > 5) {
     echo 'O número é igual a 5';
 }
 
-?>
 ```
 
 > Existe também a notação curta, com delimitadores `:` (dois pontos).
@@ -38,7 +37,6 @@ switch ($numero) {
         echo 'O número é 3';
 }
 
-?>
 ```
 
 ### Ternário
@@ -50,7 +48,6 @@ $numero = 5;
 
 $resposta = ($numero > 5) ? 'Maior que 5' : 'Menor ou igual a 5';
 
-?>
 ```
 
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/Variaveis.md#variáveis)
