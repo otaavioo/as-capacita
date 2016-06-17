@@ -50,6 +50,6 @@ $resposta = ($numero > 5) ? 'Maior que 5' : 'Menor ou igual a 5';
 
 ```
 
-[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/Variaveis.md#variáveis)
+[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basico/Variaveis.md#variáveis)
 |
-[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/EstruturasRepeticao.md#estruturas-de-repetição)
+[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-basico/EstruturasRepeticao.md#estruturas-de-repetição)

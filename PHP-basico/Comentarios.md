@@ -44,6 +44,6 @@ PHPDoc
 
 ```
 
-[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/ImprimindoEmTela.md#imprimindo-valores-em-tela)
+[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basico/ImprimindoEmTela.md#imprimindo-valores-em-tela)
 |
-[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-basics/Variaveis.md#variáveis)
+[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-basico/Variaveis.md#variáveis)
