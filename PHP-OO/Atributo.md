@@ -1,4 +1,4 @@
-# Atributos
+# Atributo
 
 ```php
 <?php
@@ -10,6 +10,6 @@ class Usuario
 }
 ```
 
-[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Classes.md#classes)
+[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Classe.md#classe)
 |
 [Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Objeto.md#objeto)
