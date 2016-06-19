@@ -6,3 +6,4 @@
 4. [Variáveis](https://github.com/agenciasys/as-capacita/blob/master/PHP-basico/Variaveis.md#variáveis)
 5. [Estruturas condicionais](https://github.com/agenciasys/as-capacita/blob/master/PHP-basico/EstruturasCondicionais.md#estruturas-condicionais)
 6. [Estruturas de repetição](https://github.com/agenciasys/as-capacita/blob/master/PHP-basico/EstruturasRepeticao.md#estruturas-de-repetição)
+7. [Funções](https://github.com/agenciasys/as-capacita/blob/master/PHP-basico/Funcoes.md#fun%C3%A7%C3%B5es)
