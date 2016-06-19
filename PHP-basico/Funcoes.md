@@ -3,12 +3,12 @@
 ```php
 <?php
 
-function exibe()
+function exibir()
 {
     echo 'Olá mundo!';
 }
 
-exibe();
+exibir();
 
 ```
 
@@ -17,12 +17,12 @@ exibe();
 ```php
 <?php
 
-function exibe($frase)
+function exibir($frase)
 {
     echo $frase;
 }
 
-exibe('Olá mundo!');
+exibir('Olá mundo!');
 ```
 
 ### Mais de um parâmetro
@@ -30,12 +30,12 @@ exibe('Olá mundo!');
 ```php
 <?php
 
-function exibe($palavra1, $palavra2)
+function exibir($palavra1, $palavra2)
 {
     echo $palavra1, ' ', $palavra2;
 }
 
-exibe('Olá', 'mundo!');
+exibir('Olá', 'mundo!');
 ```
 
 ### Funções que retornam valor.
@@ -43,16 +43,16 @@ exibe('Olá', 'mundo!');
 ```php
 <?php
 
-function exibe()
+function exibir()
 {
     return 'Olá mundo!';
 }
 
-echo exibe();
+echo exibir();
 
 // ou
 
-$valor = exibe();
+$valor = exibir();
 echo $valor;
 
 ```
@@ -62,16 +62,16 @@ echo $valor;
 ```php
 <?php
 
-function exibe($frase)
+function exibir($frase)
 {
     return $frase;
 }
 
-echo exibe('Olá mundo!');
+echo exibir('Olá mundo!');
 
 // ou
 
-$valor = exibe('Olá mundo!');
+$valor = exibir('Olá mundo!');
 echo $valor;
 ```
 
@@ -80,12 +80,12 @@ echo $valor;
 ```php
 <?php
 
-function exibe($palavra1, $palavra2)
+function exibir($palavra1, $palavra2)
 {
-    echo $palavra1, ' ', $palavra2;
+    return $palavra1, ' ', $palavra2;
 }
 
-exibe('Olá', 'mundo!');
+exibir('Olá', 'mundo!');
 
 ```
 
