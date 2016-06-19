@@ -38,7 +38,7 @@ function exibir($palavra1, $palavra2)
 exibir('Olá', 'mundo!');
 ```
 
-### Funções que retornam valor.
+### Funções que retornam valor
 
 ```php
 <?php
