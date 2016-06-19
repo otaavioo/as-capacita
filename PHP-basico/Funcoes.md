@@ -89,6 +89,6 @@ exibir('Olá', 'mundo!');
 
 ```
 
-[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basico/EstruturasCondicionais.md#estruturas-condicionais)
+[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basico/EstruturasRepeticao.md#estruturas-de-repeti%C3%A7%C3%A3o)
 |
 [Início](https://github.com/agenciasys/as-capacita/blob/master/PHP-basico/README.md#php-b%C3%A1sico)
