@@ -1,4 +1,4 @@
-# Classes
+# Classe
 
 Toda classe é definida com a palavra chave `class`
 
