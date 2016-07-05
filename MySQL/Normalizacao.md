@@ -102,6 +102,6 @@ Após a 3FN
     4               2016-06-05       123            1        500.00
     5               2016-06-23       136            2        89.90
 
-[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/MySQL/README.md)
+[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/MySQL/README.md#mysql---normaliza%C3%A7%C3%A3o-relacionamentos-e-%C3%8Dndices)
 |
-[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/MySQL/Relacionamentos.md)
+[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/MySQL/Relacionamentos.md#relacionamentos)
