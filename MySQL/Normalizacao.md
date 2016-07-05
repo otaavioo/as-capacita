@@ -5,7 +5,7 @@ Temos atualmente 5 formas de normalização. Falaremos apenas sobre as 3 princip
 
 **1FN – Primeira Forma Normal**
 
-Uma tabela/entidade só estará na 1FN se todos os seus atributos/colunas não forem de dados repetitivos ou colunas que tenham mais de um valor (usando-se separadores por exemplo).
+Uma tabel só estará na 1FN se todos os seus atributos/colunas não forem de dados repetitivos ou colunas que tenham mais de um valor (usando-se separadores por exemplo).
 
 Passos para aplicar a 1FN:
 
@@ -40,7 +40,7 @@ Após a 1FN
 
 **2FN – Segunda Forma Normal**
 
-Uma tabela/entidade só estará na 2FN se estiver na 1FN e se todos os seus atributos/colunas não chaves dependam apenas da chave primária. Caso algum atributo dependa de apenas uma parte da chave primária, isso é considerada uma violação da 2FN.
+Uma tabela só estará na 2FN se estiver na 1FN e se todos os seus atributos/colunas não chaves dependam apenas da chave primária. Caso algum atributo dependa de apenas uma parte da chave primária, isso é considerada uma violação da 2FN.
 
 Passos para aplicar a 2FN:
 
@@ -50,7 +50,7 @@ Passos para aplicar a 2FN:
 Exemplo:
 
     Tabela: Orcamentos
-    iOrcamentoId    dtDataOrcamento  iProdutoId     sNomeProduto     iQtd     dcValorUnitario     dcValorTotal
+    iOrcamentoId    dtDataOrcamento  iProdutoId     sProdutoNome     iQtd     dcValorUnitario     dcValorTotal
     1               2016-05-15       123            Camera Digital   1        500.00              500.00
     2               2016-05-19       124            Cartão SD (16GB) 2        50.00               100.00
     3               2016-06-27       136            Filtro UV        3        89.90               269.70
@@ -68,14 +68,14 @@ Após a 2FN
     5               2016-06-23       136            2        89.90               179.80
 
     Tabela: Produtos
-    iProdutoId     sNomeProduto
+    iProdutoId     sProdutoNome
     123            Camera Digital
     124            Cartão SD (16GB)
     136            Filtro UV
 
 **3FN – Terceira Forma Normal**
 
-Uma tabela/entidade só estará na 3FN se estiver na 2FN e se todos os atributos/colunas não chave forem independentes e todos dependem apenas da chave primária.
+Uma tabela só estará na 3FN se estiver na 2FN e se todos os atributos/colunas não chave forem independentes e todos dependem apenas da chave primária.
 
 Passos para aplicar a 3FN:
 
