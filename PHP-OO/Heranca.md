@@ -29,4 +29,4 @@ $admin->setSenha(123);
 
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Objeto2.md#objeto)
 |
-[Próximo >>](#)
+[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/ModificadoresAcesso.md#public)
