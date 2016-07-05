@@ -10,3 +10,4 @@ Conheça mais sobre o projeto e suas datas clicando [aqui](http://www.agenciasys
 
 1. [PHP Básico](https://github.com/agenciasys/as-capacita/blob/master/PHP-basico/README.md#php-b%C3%A1sico)
 2. [PHP OO](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/README.md#php-oo)
+3. [MySQL - Normalização, Relacionamentos, Índices e PDO](https://github.com/agenciasys/as-capacita/tree/master/MySQL#mysql---normalização-relacionamentos-e-Índices)
