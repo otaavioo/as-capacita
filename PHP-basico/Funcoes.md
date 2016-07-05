@@ -32,7 +32,7 @@ exibir('Olá mundo!');
 
 function exibir($palavra1, $palavra2)
 {
-    echo $palavra1, ' ', $palavra2;
+    echo $palavra1 . ' ' . $palavra2;
 }
 
 exibir('Olá', 'mundo!');
@@ -82,7 +82,7 @@ echo $valor;
 
 function exibir($palavra1, $palavra2)
 {
-    return $palavra1, ' ', $palavra2;
+    return $palavra1 . ' ' . $palavra2;
 }
 
 exibir('Olá', 'mundo!');
