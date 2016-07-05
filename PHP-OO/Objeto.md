@@ -18,3 +18,5 @@ $usuario->email = 'email@dominio.com';
 ```
 
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Classes.md#classes)
+|
+[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Metodo.md#m%C3%A9todo)
