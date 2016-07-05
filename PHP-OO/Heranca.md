@@ -19,6 +19,12 @@ class Admin extends Usuario
         return $this->senha;
     }
 }
+
+$admin = new Admin();
+
+$admin->setNome('Nome do admin');
+$admin->setEmail('email@dominio.com');
+$admin->setSenha(123);
 ```
 
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Objeto2.md#objeto)
