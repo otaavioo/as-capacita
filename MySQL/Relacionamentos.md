@@ -88,6 +88,6 @@ Como podemos ver, a câmera digital possui as tags de Fotografia e Eletrônicos.
 
 
 
-[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/MySQL/Normalizacao.md)
+[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/MySQL/Normalizacao.md#normaliza%C3%A7%C3%A3o)
 |
-[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/MySQL/Indices.md)
+[Início >>](https://github.com/agenciasys/as-capacita/blob/master/MySQL/README.md#mysql---normaliza%C3%A7%C3%A3o-relacionamentos-e-%C3%8Dndices)
