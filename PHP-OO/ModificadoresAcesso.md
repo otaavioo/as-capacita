@@ -15,7 +15,7 @@ class Usuario
 $usuario = new Usuario();
 $usuario->nome = 'Nome do usuário';
 
-echo 'Usuário: ', $usuario->nome;
+echo 'Usuário: ' . $usuario->nome;
 ```
 
 ## protected
