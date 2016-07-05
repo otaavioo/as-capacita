@@ -8,7 +8,7 @@
 $contador = 0;
 
 while ($contador < 10) {
-    echo $contador, '<br>';
+    echo $contador . '<br>';
     $contador++;
 }
 
@@ -22,7 +22,7 @@ while ($contador < 10) {
 $contador = 0;
 
 do {
-    echo $contador, '<br>';
+    echo $contador . '<br>';
     $contador++;
 } while ($contador < 10);
 
@@ -34,7 +34,7 @@ do {
 <?php
 
 for ($contador = 0; $contador < 10; $contador++) {
-    echo $contador, '<br>';
+    echo $contador . '<br>';
 }
 
 ```
@@ -47,13 +47,13 @@ for ($contador = 0; $contador < 10; $contador++) {
 $usuarios = ['Usuário 1', 'Usuário 2', 'Usuário 3'];
 
 foreach ($usuarios as $usuario) {
-    echo $usuario, '<br>';
+    echo $usuario . '<br>';
 }
 
 // ou
 
 foreach ($usuarios as $chave => $usuario) {
-    echo $chave, ': ', $usuario, '<br>';
+    echo $chave . ': ' . $usuario . '<br>';
 }
 
 ```
