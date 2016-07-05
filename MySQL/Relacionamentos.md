@@ -12,7 +12,7 @@ Exitem vários tipos de relacionamento, iremos falar sobre os mais comuns.
 
 Exemplo 1:1 :
 
-    Clientes
+    Tabela: Clientes
     iClienteId      iClienteNome    sClienteEndereco
     1               Cliente 1       Rua xxxxx, 256
     2               Cliente 2       Rua yyyy, 123
@@ -20,13 +20,13 @@ Exemplo 1:1 :
 
 Neste caso podemos facilmente criar uma tabela para relacionar endereços (1 por cliente) e clientes.
 
-    Clientes
+    Tabela: Clientes
     iClienteId      iClienteNome    iEnderecoId
     1               Cliente 1       1
     2               Cliente 2       2
     3               Cliente 3       3
 
-    Enderecos
+    Tabela: Enderecos
     iEnderecoId     sEndereco
     1               Rua xxxxx, 256
     2               Rua yyyy, 123
