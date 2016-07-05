@@ -35,11 +35,11 @@ Agora criem um arquivo **index.php** na pasta **pdo-indices**. Abaixo o conteúd
 Para consulta: PHP Data Objects -  <http://php.net/manual/pt_BR/book.pdo.php>
 
 ```php
-$db = new PDO('mysql:host=localhost;dbname=as_capacita_indexes', 'root', 'admin');
+$db = new PDO('mysql:host=localhost;dbname=as_capacita_indexes', 'root', 'admin') or die("Erro");
 
 $sql = "INSERT INTO agenda (ddd, numero, excluido) VALUES ";
 
-for($i = 0; $i <= 300000; $i++){
+for($i = 0; $i < 10000; $i++){
     $sql .= "
     (:ddd$i, :numero$i, :excluido$i), ";
 }
@@ -47,11 +47,11 @@ for($i = 0; $i <= 300000; $i++){
 $sql = substr($sql, 0 , -2).";";
 
 try {
-    $stmt = $this->db->prepare($sql);
+    $stmt = $db->prepare($sql);
 
-    for($i = 0; $i <= 300000; $i++){
+    for($i = 0; $i < 10000; $i++){
         $ddd = rand(10,99);
-        $numero = rand(1000,9999)."".rand(1000,9999);
+        $numero = rand(1000,9999).rand(1000,9999);
         $excluido = rand(0,1);
 
         $stmt->bindValue(":ddd$i", $ddd);
@@ -61,10 +61,6 @@ try {
 
     try {
         $stmt->execute();
-        // copiar os dados da agenda para a tabela agenda indexada.
-        $sqlIndexada = "INSERT INTO agenda_indexada SELECT * FROM agenda;";
-        $db->query($sqlIndexada);
-        echo "Executado com sucesso! <br />";
     } catch (Exception $e) {
         $stmt->debugDumpParams();
         echo "Código: 1 <br /> <pre>";
@@ -78,6 +74,7 @@ try {
     exit();
 }
 echo "<br />Script finalizado! <br />";
+
 ```
 
 Agora podemos criar os índices que desejamos.
