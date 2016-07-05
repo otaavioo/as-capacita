@@ -30,6 +30,6 @@ class Usuario
 }
 ```
 
-[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Atributo.md#atributo)
+[<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Objeto.md#objeto)
 |
-[Próximo >>](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Objeto.md#objeto)
+[Próximo >>](#)
