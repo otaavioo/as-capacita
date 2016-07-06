@@ -2,7 +2,7 @@
 
 Primeiramente vamos abrir o phpMyAdmin de vocês para facilitar todo o processo.
 
-Criem também uma pasta chamada **pdo-indices** no diretório dispónível pro servidor web. Iremos utilizar o PHP para criar registros randômicos em tabelas e ciraremos um índice para perquisarmos.
+Criem também uma pasta chamada **pdo-indices** no diretório dispónível para o servidor web. Iremos utilizar o PHP para criar registros randômicos em tabelas e criaremos um índice para pesquisarmos.
 
 Acessando o seu phpMyAdmin, cliquem na aba SQL e digitem o seguinte conteúdo:
 

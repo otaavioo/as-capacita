@@ -79,7 +79,7 @@ Tabela: Produtos
 
 | iProdutoId  | sProdutoNome     |
 | ----------- |:----------------:|
-| 1           | Camera Digital   |
+| 1           | Câmera Digital   |
 | 2           | Cartão SD (16GB) |
 | 3           | Filtro UV        |
 | 4           | Filtro Sépia     |
@@ -108,7 +108,7 @@ Tabela: ProdutosTags
 | 3           | 4             |
 
 
-Como podemos ver, a câmera digital possui as tags de Fotografia e Eletrônicos. Os filtros (3 e 4) pertence à tag Filtros. Já o Cartão SD está em Fotografia e Eletrônicos. Se vermos do ponto de vista das tags temos na tag Fotografia doi produtos, na tag Filtro outros dois produtos e assim por diante. Espero ter esclarecido o funcionamento dos relacionamentos mais utilizados.
+Como podemos ver, a câmera digital possui as tags de Fotografia e Eletrônicos. Os filtros (3 e 4) pertence à tag Filtros. Já o Cartão SD está em Fotografia e Eletrônicos. Se vermos do ponto de vista das tags, temos na tag Fotografia dois produtos e na tag Filtro outros dois produtos. Espero ter esclarecido o funcionamento dos relacionamentos mais utilizados.
 
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/MySQL/Normalizacao.md#normaliza%C3%A7%C3%A3o)
 |

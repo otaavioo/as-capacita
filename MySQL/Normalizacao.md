@@ -62,10 +62,10 @@ Tabela: Orcamentos
 
 | iOrcamentoId | dtDataOrcamento | iProdutoId |  sProdutoNome    |  iQtd   | dcValorUnitario | dcValorTotal |
 | ------------ |:---------------:|:----------:|:----------------:|:-------:|:---------------:|:------------:|
-| 1            | 2016-05-15      | 123        | Camera Digital   |  1      |  500.00         | 500.00       |
+| 1            | 2016-05-15      | 123        | Câmera Digital   |  1      |  500.00         | 500.00       |
 | 2            | 2016-05-19      | 124        | Cartão SD (16GB) |  2      |  50.00          | 100.00       |
 | 3            | 2016-06-27      | 136        | Filtro UV        |  3      |  89.90          | 269.70       |
-| 4            | 2016-06-05      | 123        | Camera Digital   |  1      |  500.00         | 500.00       |
+| 4            | 2016-06-05      | 123        | Câmera Digital   |  1      |  500.00         | 500.00       |
 | 5            | 2016-06-23      | 136        | Filtro UV        |  2      |  89.90          | 179.80       |
 
 Após a 2FN
@@ -85,7 +85,7 @@ Tabela: Produtos
 
 | iProdutoId | sProdutoNome       |
 | ------------ |:----------------:|
-| 123          | Camera Digital   |
+| 123          | Câmera Digital   |
 | 124          | Cartão SD (16GB) |
 | 136          | Filtro UV        |
 
