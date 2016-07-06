@@ -16,26 +16,35 @@ Passos para aplicar a 1FN:
 
 Exemplo:
 
-    Tabela: Fornecedores
-    iFornecedorId    sFornecedorNome  sFornecedorEndereco   sFornecedorTelefone
-    1                Fornecedor 1     Rua xxx, 256          47 34330000
-    2                Fornecedor 2     Rua yyy, 777          96758585
-    3                Fornecedor 3     Rua zzz, 123          11 23456789 / 48 98899898
+Tabela: Fornecedores
+
+| iFornecedorId  | sFornecedorNome  |  sFornecedorEndereco   |    sFornecedorTelefone    |
+| -------------- |:----------------:|:----------------------:|:-------------------------:|
+| 1              | Fornecedor 1     |  Rua xxx, 256          | 47 34330000               |
+| 2              | Fornecedor 2     |  Rua yyy, 777          | 96758585                  |
+| 3              | Fornecedor 3     |  Rua zzz, 123          | 11 23456789 / 48 98899898 |
+
 
 Após a 1FN
 
-    Tabela: Fornecedores
-    iFornecedorId    sFornecedorNome  sFornecedorEndereco
-    1                Fornecedor 1     Rua xxx, 256
-    2                Fornecedor 2     Rua yyy, 777
-    3                Fornecedor 3     Rua zzz, 123
 
-    Tabela: FornecedoresTelefones
-    iFornecedorTelefoneId     iFornecedorId         sFornecedorTelefone
-    1                         1                     47 34330000
-    2                         2                     96758585
-    3                         3                     11 23456789
-    4                         3                     48 98899898
+Tabela: Fornecedores
+
+| iFornecedorId  | sFornecedorNome  |  sFornecedorEndereco   |
+| -------------- |:----------------:|:----------------------:|
+| 1              | Fornecedor 1     |  Rua xxx, 256          |
+| 2              | Fornecedor 2     |  Rua yyy, 777          |
+| 3              | Fornecedor 3     |  Rua zzz, 123          |
+
+
+Tabela: FornecedoresTelefones
+
+| iFornecedorTelefoneId  | iFornecedorId  |  sFornecedorTelefone |
+| ---------------------- |:--------------:|:--------------------:|
+| 1                      | 1              |  47 34330000         |
+| 2                      | 2              |  96758585            |
+| 3                      | 3              |  11 23456789         |
+| 4                      | 3              |  48 98899898         |
 
 
 **2FN – Segunda Forma Normal**
@@ -49,29 +58,37 @@ Passos para aplicar a 2FN:
 
 Exemplo:
 
-    Tabela: Orcamentos
-    iOrcamentoId    dtDataOrcamento  iProdutoId     sProdutoNome     iQtd     dcValorUnitario     dcValorTotal
-    1               2016-05-15       123            Camera Digital   1        500.00              500.00
-    2               2016-05-19       124            Cartão SD (16GB) 2        50.00               100.00
-    3               2016-06-27       136            Filtro UV        3        89.90               269.70
-    4               2016-06-05       123            Camera Digital   1        500.00              500.00
-    5               2016-06-23       136            Filtro UV        2        89.90               179.80
+Tabela: Orcamentos
+
+| iOrcamentoId | dtDataOrcamento | iProdutoId |  sProdutoNome    |  iQtd   | dcValorUnitario | dcValorTotal |
+| ------------ |:---------------:|:----------:|:----------------:|:-------:|:---------------:|:------------:|
+| 1            | 2016-05-15      | 123        | Camera Digital   |  1      |  500.00         | 500.00       |
+| 2            | 2016-05-19      | 124        | Cartão SD (16GB) |  2      |  50.00          | 100.00       |
+| 3            | 2016-06-27      | 136        | Filtro UV        |  3      |  89.90          | 269.70       |
+| 4            | 2016-06-05      | 123        | Camera Digital   |  1      |  500.00         | 500.00       |
+| 5            | 2016-06-23      | 136        | Filtro UV        |  2      |  89.90          | 179.80       |
 
 Após a 2FN
 
-    Tabela: Orcamentos
-    iOrcamentoId    dtDataOrcamento  iProdutoId     iQtd     dcValorUnitario     dcValorTotal
-    1               2016-05-15       123            1        500.00              500.00
-    2               2016-05-19       124            2        50.00               100.00
-    3               2016-06-27       136            3        89.90               269.70
-    4               2016-06-05       123            1        500.00              500.00
-    5               2016-06-23       136            2        89.90               179.80
+Tabela: Orcamentos
 
-    Tabela: Produtos
-    iProdutoId     sProdutoNome
-    123            Camera Digital
-    124            Cartão SD (16GB)
-    136            Filtro UV
+| iOrcamentoId | dtDataOrcamento | iProdutoId | iQtd   | dcValorUnitario | dcValorTotal |
+| ------------ |:---------------:|:----------:|:------:|:---------------:|:------------:|
+| 1            | 2016-05-15      | 123        | 1      |  500.00         | 500.00       |
+| 2            | 2016-05-19      | 124        | 2      |  50.00          | 100.00       |
+| 3            | 2016-06-27      | 136        | 3      |  89.90          | 269.70       |
+| 4            | 2016-06-05      | 123        | 1      |  500.00         | 500.00       |
+| 5            | 2016-06-23      | 136        | 2      |  89.90          | 179.80       |
+
+
+Tabela: Produtos
+
+| iProdutoId | sProdutoNome       |
+| ------------ |:----------------:|
+| 123          | Camera Digital   |
+| 124          | Cartão SD (16GB) |
+| 136          | Filtro UV        |
+
 
 **3FN – Terceira Forma Normal**
 
@@ -84,23 +101,28 @@ Passos para aplicar a 3FN:
 
 Exemplo:
 
-    Tabela: Orcamentos
-    iOrcamentoId    dtDataOrcamento  iProdutoId     iQtd     dcValorUnitario     dcValorTotal
-    1               2016-05-15       123            1        500.00              500.00
-    2               2016-05-19       124            2        50.00               100.00
-    3               2016-06-27       136            3        89.90               269.70
-    4               2016-06-05       123            1        500.00              500.00
-    5               2016-06-23       136            2        89.90               179.80
+Tabela: Orcamentos
+
+| iOrcamentoId | dtDataOrcamento | iProdutoId | iQtd   | dcValorUnitario | dcValorTotal |
+| ------------ |:---------------:|:----------:|:------:|:---------------:|:------------:|
+| 1            | 2016-05-15      | 123        | 1      |  500.00         | 500.00       |
+| 2            | 2016-05-19      | 124        | 2      |  50.00          | 100.00       |
+| 3            | 2016-06-27      | 136        | 3      |  89.90          | 269.70       |
+| 4            | 2016-06-05      | 123        | 1      |  500.00         | 500.00       |
+| 5            | 2016-06-23      | 136        | 2      |  89.90          | 179.80       |
 
 Após a 3FN
 
-    Tabela: Orcamentos
-    iOrcamentoId    dtDataOrcamento  iProdutoId     iQtd     dcValorUnitario
-    1               2016-05-15       123            1        500.00
-    2               2016-05-19       124            2        50.00
-    3               2016-06-27       136            3        89.90
-    4               2016-06-05       123            1        500.00
-    5               2016-06-23       136            2        89.90
+Tabela: Orcamentos
+
+| iOrcamentoId | dtDataOrcamento | iProdutoId | iQtd   | dcValorUnitario |
+| ------------ |:---------------:|:----------:|:------:|:---------------:|
+| 1            | 2016-05-15      | 123        | 1      |  500.00         |
+| 2            | 2016-05-19      | 124        | 2      |  50.00          |
+| 3            | 2016-06-27      | 136        | 3      |  89.90          |
+| 4            | 2016-06-05      | 123        | 1      |  500.00         |
+| 5            | 2016-06-23      | 136        | 2      |  89.90          |
+
 
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/MySQL/README.md#mysql---normaliza%C3%A7%C3%A3o-relacionamentos-e-%C3%8Dndices)
 |
