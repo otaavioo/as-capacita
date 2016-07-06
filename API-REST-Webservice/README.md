@@ -23,7 +23,7 @@ Cada "entidade"/tabela é um recurso a ser utilizado. Abaixo alguns exemplos do 
 
     GET  https://app.meuservico.com.br/user/1234
     GET  https://app.meuservico.com.br/listAllUsers
-    GET https://app.meuservico.com.br/user/delete/1234
+    GET  https://app.meuservico.com.br/user/delete/1234
     POST https://app.meuservico.com.br/newUser
     POST https://app.meuservico.com.br/updateUser.php?id=1234
 
