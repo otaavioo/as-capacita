@@ -52,8 +52,8 @@ foreach ($usuarios as $usuario) {
 
 // ou
 
-foreach ($usuarios as $chave => $usuario) {
-    echo $chave . ': ' . $usuario . '<br>';
+foreach ($usuarios as $indice => $usuario) {
+    echo $indice . ': ' . $usuario . '<br>';
 }
 
 ```
