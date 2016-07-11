@@ -42,6 +42,21 @@ var_dump($numero);
 
 ```
 
+Operações fundamentais.
+```php
+$numero = 42;
+
+$soma = $numero + 10;
+$subtracao = $numero - 10;
+$multiplicacao = $numero * 10;
+$divisao = $numero / 10;
+
+echo $soma; // 52
+echo $subtracao; // 32
+echo $multiplicacao; // 420
+echo $divisao; // 4.2
+```
+
 ### boolean (`true` e `false`)
 
 ```php
