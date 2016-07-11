@@ -112,6 +112,8 @@ echo $usuario[1];
 // Marvin
 ```
 
+ou
+
 ```php
 $usuario = [];
 $usuario['id'] = 1;
