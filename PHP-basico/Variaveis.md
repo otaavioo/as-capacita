@@ -9,11 +9,14 @@
 ```php
 <?php
 
-$fruta = 'abacate';
+$fruta = 'abacate'; 
 
 // ou
 
 $fruta = "abacate";
+
+var_dump($fruta); 
+// string(7) "abacate" 
 ```
 
 ### int
@@ -22,6 +25,9 @@ $fruta = "abacate";
 <?php
 
 $numero = 5;
+
+var_dump($numero); 
+// int(5)
 ```
 
 ### float
@@ -29,7 +35,10 @@ $numero = 5;
 ```php
 <?php
 
-$numero = 5.3;
+$numero = 5.3; 
+
+var_dump($numero); 
+// float(5.3)
 
 ```
 
@@ -40,9 +49,15 @@ $numero = 5.3;
 
 $bool = true;
 
+var_dump($bool); 
+// bool(true) 
+
 // ou
 
 $bool = false;
+
+var_dump($bool); 
+// bool(false) 
 
 ```
 
@@ -51,7 +66,10 @@ $bool = false;
 ```php
 <?php
 
-$frutas = ['maçã', 'banana', 'laranja'];
+$frutas = ['maçã', 'banana', 'laranja']; 
+
+var_dump($frutas);
+// array(3) { [0]=> string(6) "maçã" [1]=> string(6) "banana" [2]=> string(7) "laranja" }
 
 ```
 
@@ -65,6 +83,9 @@ $usuario = [
     'nome' => 'Nome do usuário',
     'email' => 'emaildousuario@dominio.com',
 ];
+
+var_dump($usuario);
+// array(3) { ["id"]=> int(1) ["nome"]=> string(16) "Nome do usuário" ["email"]=> string(26) "emaildousuario@dominio.com" } 
 
 ```
 
