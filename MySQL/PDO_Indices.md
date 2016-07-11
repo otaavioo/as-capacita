@@ -7,8 +7,8 @@ Criem também uma pasta chamada **pdo-indices** no diretório dispónível para 
 Acessando o seu phpMyAdmin, cliquem na aba SQL e digitem o seguinte conteúdo:
 
 ```sql
-CREATE DATABASE as-capacita-phalcon;
-USE as-capacita-phalcon;
+CREATE DATABASE `as-capacita-phalcon`;
+USE `as-capacita-phalcon`;
 ```
 
 Executem estes comandos (apertando CTRL+Enter ou clicando no botão).
@@ -38,7 +38,7 @@ Agora criem um arquivo **index.php** na pasta **pdo-indices**. Abaixo o conteúd
 Para consulta: PHP Data Objects -  <http://php.net/manual/pt_BR/book.pdo.php>
 
 ```php
-$db = new PDO('mysql:host=localhost;dbname=as-capacita-phalcon', 'root', 'admin') or die("Erro");
+$db = new PDO('mysql:host=localhost;dbname=`as-capacita-phalcon`', 'root', 'admin') or die("Erro");
 
 $sql = "INSERT INTO agenda (ddd, numero, excluido) VALUES ";
 
@@ -89,7 +89,7 @@ ordenação ou agrupamento. Nunca em colunas que só são exibidas. Em
 outras palavras, as colunas candidatas são aquelas que aparecem na
 cláusula **WHERE**, **JOINS**, **ORDER BY** ou **GROUP BY**.
 
-Iremos criar dois índices, um para o campo numero e outro para o campo excluido. Para isto abram o phpMyAdmin novamente, na aba SQL do banco de dados as-capacita-phalcon e executem o conteúdo abaixo.
+Iremos criar dois índices, um para o campo numero e outro para o campo excluido. Para isto abram o phpMyAdmin novamente, na aba SQL do banco de dados `as-capacita-phalcon` e executem o conteúdo abaixo.
 
 ```sql
 CREATE INDEX numero on agenda_indexada(numero(4));
