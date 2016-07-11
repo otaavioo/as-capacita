@@ -11,8 +11,8 @@ class Usuario
 
 $usuario = new Usuario();
 
-$usuario->setNome('Nome do usuário');
-$usuario->setEmail('email@dominio.com');
+$usuario->setNome('Marvin');
+$usuario->setEmail('marvin@coracaodeouro.com');
 ```
 
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Atributo.md#atributo)
