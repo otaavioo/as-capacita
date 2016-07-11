@@ -5,6 +5,32 @@ Em orientação a objetos, a herança pode ser implementada com a palavra chave 
 ```php
 <?php
 
+class Usuario
+{
+    public $nome;
+    public $email;
+
+    public function setNome($nome)
+    {
+        $this->nome = $nome;
+    }
+
+    public function setEmail($email)
+    {
+        $this->email = $email;
+    }
+
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    public function getEmail()
+    {
+        return $this->email;
+    }
+}
+
 class Admin extends Usuario
 {
     public $senha;
