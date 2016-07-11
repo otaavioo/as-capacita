@@ -22,8 +22,8 @@ class Admin extends Usuario
 
 $admin = new Admin();
 
-$admin->setNome('Nome do admin');
-$admin->setEmail('email@dominio.com');
+$admin->setNome('Arthur');
+$admin->setEmail('arthur@coracaodeouro.com');
 $admin->setSenha(123);
 ```
 
