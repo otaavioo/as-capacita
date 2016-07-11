@@ -51,6 +51,10 @@ $admin = new Admin();
 $admin->setNome('Arthur');
 $admin->setEmail('arthur@coracaodeouro.com');
 $admin->setSenha(123);
+
+echo $admin->getNome() . '<br>';
+echo $admin->getEmail() . '<br>';
+echo $admin->getSenha() . '<br>';
 ```
 
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Objeto2.md#objeto)
