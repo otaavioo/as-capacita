@@ -127,8 +127,6 @@ var_dump($usuario);
 
 Acesso
 
-Acesso
-
 ```php
 echo $usuario['nome'];
 // Marvin
