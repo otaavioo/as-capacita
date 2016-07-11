@@ -13,7 +13,7 @@ class Usuario
 }
 
 $usuario = new Usuario();
-$usuario->nome = 'Nome do usuário';
+$usuario->nome = 'Marvin';
 
 echo 'Usuário: ' . $usuario->nome;
 ```
@@ -46,13 +46,13 @@ class Admin extends Usuario
 }
 
 $admin = new Admin();
-$admin->setNome('Nome do Admin');
+$admin->setNome('Arthur');
 
 $usuario = new Usuario();
-$usuario->setNome('Nome do Usuário');
+$usuario->setNome('Marvin');
 
-echo 'Admin: ' . $admin->getNome();
-echo 'Usuário: ' . $usuario->getNome();
+echo 'Admin: ' . $admin->getNome() . '<br>';
+echo 'Usuário: ' . $usuario->getNome() . '<br>';
 ```
 
 ## private
@@ -93,13 +93,13 @@ class Admin extends Usuario
 }
 
 $admin = new Admin();
-$admin->setNome('Nome do Admin');
+$admin->setNome('Arthur');
 $admin->setSenha(123);
 
 $usuario = new Usuario();
-$usuario->setNome('Nome do Usuário');
+$usuario->setNome('Marvin');
 
-echo 'Admin: ' . $admin->getNome();
-echo 'Senha: ' . $admin->getSenha();
-echo 'Usuário: ' . $usuario->getNome();
+echo 'Admin: ' . $admin->getNome() . '<br>';
+echo 'Senha: ' . $admin->getSenha() . '<br>';
+echo 'Usuário: ' . $usuario->getNome() . '<br>';
 ```
