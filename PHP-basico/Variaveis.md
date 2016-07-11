@@ -83,11 +83,11 @@ echo $usuarios[1];
 $usuario = [
     'id' => 1,
     'nome' => 'Marvin',
-    'email' => 'marvin@gmail.com',
+    'email' => 'marvin@coracaodeouro.com',
 ];
 
 var_dump($usuario);
-// array(3) { ["id"]=> int(1) ["nome"]=> string(6) "Marvin" ["email"]=> string(16) "marvin@gmail.com" } 
+// array(3) { ["id"]=> int(1) ["nome"]=> string(6) "Marvin" ["email"]=> string(16) "marvin@coracaodeouro.com" } 
 
 ```
 
@@ -99,10 +99,10 @@ Definindo um array para preencher depois.
 $usuario = [];
 $usuario[] = 1;
 $usuario[] = 'Marvin';
-$usuario[] = 'marvin@gmail.com';
+$usuario[] = 'marvin@coracaodeouro.com';
 
 var_dump($usuario);
-// array(3) { [0]=> int(1) [1]=> string(6) "Marvin" [2]=> string(18) "marvin@gmail.com" }
+// array(3) { [0]=> int(1) [1]=> string(6) "Marvin" [2]=> string(18) "marvin@coracaodeouro.com" }
 ```
 
 Acesso
@@ -118,10 +118,10 @@ ou
 $usuario = [];
 $usuario['id'] = 1;
 $usuario['nome'] = 'Marvin';
-$usuario['email'] = 'marvin@gmail.com';
+$usuario['email'] = 'marvin@coracaodeouro.com';
 
 var_dump($usuario);
-// array(3) { ["id"]=> int(1) ["nome"]=> string(6) "Marvin" ["email"]=> string(18) "marvin@gmail.com" } 
+// array(3) { ["id"]=> int(1) ["nome"]=> string(6) "Marvin" ["email"]=> string(18) "marvin@coracaodeouro.com" } 
 
 ```
 
