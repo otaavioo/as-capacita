@@ -24,10 +24,10 @@ var_dump($fruta);
 ```php
 <?php
 
-$numero = 5;
+$numero = 42;
 
 var_dump($numero); 
-// int(5)
+// int(42)
 ```
 
 ### float
@@ -35,10 +35,10 @@ var_dump($numero);
 ```php
 <?php
 
-$numero = 5.3; 
+$numero = 4.2; 
 
 var_dump($numero); 
-// float(5.3)
+// float(4.2)
 
 ```
 
@@ -66,10 +66,12 @@ var_dump($bool);
 ```php
 <?php
 
-$frutas = ['maçã', 'banana', 'laranja']; 
+$usuarios = ['Marvin', 'Trillian', 'Arthur']; 
 
-var_dump($frutas);
-// array(3) { [0]=> string(6) "maçã" [1]=> string(6) "banana" [2]=> string(7) "laranja" }
+var_dump($usuarios);
+// array(3) { [0]=> string(6) "Marvin" [1]=> string(8) "Trillian" [2]=> string(6) "Arthur" } 
+
+echo $usuarios[1];
 
 ```
 
@@ -80,12 +82,12 @@ var_dump($frutas);
 
 $usuario = [
     'id' => 1,
-    'nome' => 'Nome do usuário',
-    'email' => 'emaildousuario@dominio.com',
+    'nome' => 'Marvin',
+    'email' => 'marvin@gmail.com',
 ];
 
 var_dump($usuario);
-// array(3) { ["id"]=> int(1) ["nome"]=> string(16) "Nome do usuário" ["email"]=> string(26) "emaildousuario@dominio.com" } 
+// array(3) { ["id"]=> int(1) ["nome"]=> string(6) "Marvin" ["email"]=> string(16) "marvin@gmail.com" } 
 
 ```
 
@@ -94,16 +96,40 @@ Definindo um array para preencher depois.
 ```php
 <?php
 
-$frutas = [];
-$frutas[] = 'maçã';
-$frutas[] = 'banana';
-$frutas[] = 'laranja';
+$usuario = [];
+$usuario[] = 1;
+$usuario[] = 'Marvin';
+$usuario[] = 'marvin@gmail.com';
 
+var_dump($usuario);
+// array(3) { [0]=> int(1) [1]=> string(6) "Marvin" [2]=> string(18) "marvin@gmail.com" }
+```
+
+Acesso
+
+```php
+echo $usuario[1];
+// Marvin
+```
+
+```php
 $usuario = [];
 $usuario['id'] = 1;
-$usuario['nome'] = 'Nome do usuário';
-$usuario['email'] = 'emaildousuario@dominio.com';
+$usuario['nome'] = 'Marvin';
+$usuario['email'] = 'marvin@gmail.com';
 
+var_dump($usuario);
+// array(3) { ["id"]=> int(1) ["nome"]=> string(6) "Marvin" ["email"]=> string(18) "marvin@gmail.com" } 
+
+```
+
+Acesso
+
+Acesso
+
+```php
+echo $usuario['nome'];
+// Marvin
 ```
 
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-basico/Comentarios.md#comentários)
