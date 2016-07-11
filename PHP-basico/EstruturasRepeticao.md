@@ -12,6 +12,19 @@ while ($contador < 10) {
     $contador++;
 }
 
+/*
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+*/
+
 ```
 
 ### do ... while
@@ -26,6 +39,19 @@ do {
     $contador++;
 } while ($contador < 10);
 
+/*
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+*/
+
 ```
 
 ### for
@@ -37,6 +63,19 @@ for ($contador = 0; $contador < 10; $contador++) {
     echo $contador . '<br>';
 }
 
+/*
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+*/
+
 ```
 
 ### foreach
@@ -44,17 +83,29 @@ for ($contador = 0; $contador < 10; $contador++) {
 ```php
 <?php
 
-$usuarios = ['Usuário 1', 'Usuário 2', 'Usuário 3'];
+$usuarios = ['Marvin', 'Trillian', 'Arthur'];
 
 foreach ($usuarios as $usuario) {
     echo $usuario . '<br>';
 }
+
+/*
+Marvin
+Trillian
+Arthur
+*/
 
 // ou
 
 foreach ($usuarios as $indice => $usuario) {
     echo $indice . ': ' . $usuario . '<br>';
 }
+
+/*
+0: Marvin
+1: Trillian
+2: Arthur
+*/
 
 ```
 
