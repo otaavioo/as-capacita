@@ -5,12 +5,14 @@
 
 class Usuario
 {
+    public $id;
     public $nome;
     public $email;
 }
 
 $usuario = new Usuario();
 
+$usuario->id = 1;
 $usuario->nome = 'Marvin';
 $usuario->email = 'marvin@coracaodeouro.com';
 ```
