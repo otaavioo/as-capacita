@@ -5,10 +5,16 @@
 
 class Usuario
 {
-    public $nome;
+    public $id;
+	public $nome;
     public $email;
-    
-    public function setNome($nome)
+
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+	
+	public function setNome($nome)
     {
         $this->nome = $nome;
     }
@@ -18,7 +24,12 @@ class Usuario
         $this->email = $email;
     }
 
-    public function getNome()
+    public function getId()
+    {
+        return $this->id;
+    }
+	
+	public function getNome()
     {
         return $this->nome;
     }
