@@ -7,3 +7,10 @@
 3. [Método](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Metodo.md#m%C3%A9todo)
 4. [Herança](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Heranca.md#heran%C3%A7a)
 5. [Visibilidade](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/ModificadoresAcesso.md#public)
+
+### Resolução de problemas.
+
+Em caso de problemas de codificação de caracteres, adicione esta linha no início do arquivo.
+```php
+header('Content-Type: text/html; charset=utf-8');
+```
