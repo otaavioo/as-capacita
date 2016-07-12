@@ -105,3 +105,5 @@ echo 'Usuário: ' . $usuario->getNome() . '<br>';
 ```
 
 [<< Anterior](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/Heranca.md#heran%C3%A7a)
+|
+[Próximo](https://github.com/agenciasys/as-capacita/blob/master/PHP-OO/README.md#php-oo)
