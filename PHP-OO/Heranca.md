@@ -7,10 +7,16 @@ Em orientação a objetos, a herança pode ser implementada com a palavra chave 
 
 class Usuario
 {
-    public $nome;
+    public $id;
+	public $nome;
     public $email;
 
-    public function setNome($nome)
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+	
+	public function setNome($nome)
     {
         $this->nome = $nome;
     }
@@ -20,7 +26,12 @@ class Usuario
         $this->email = $email;
     }
 
-    public function getNome()
+    public function getId()
+    {
+        return $this->id;
+    }
+	
+	public function getNome()
     {
         return $this->nome;
     }
@@ -34,7 +45,7 @@ class Usuario
 class Admin extends Usuario
 {
     public $senha;
-    
+
     public function setSenha($senha)
     {
         $this->senha = $senha;
@@ -48,10 +59,12 @@ class Admin extends Usuario
 
 $admin = new Admin();
 
+$admin->setId(1);
 $admin->setNome('Arthur');
 $admin->setEmail('arthur@coracaodeouro.com');
 $admin->setSenha(123);
 
+echo $admin->getId() . '<br>';
 echo $admin->getNome() . '<br>';
 echo $admin->getEmail() . '<br>';
 echo $admin->getSenha() . '<br>';
