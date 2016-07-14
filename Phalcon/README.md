@@ -1,4 +1,4 @@
-# Phalcon-PHP e MVC
+# Phalcon
 
 [Menu principal](https://github.com/agenciasys/as-capacita/blob/master/README.md#as-capacita)
 
