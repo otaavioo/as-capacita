@@ -12,6 +12,6 @@
 8. Benchmark [link](https://docs.phalconphp.com/en/1.2.6/reference/benchmark/hello-world.html)
 8. [Documentação oficial do PHP](http://php.net/)
 
-### [[Projeto MVC]](https://github.com/agenciasys/as-capacita-phalcon-mvc#as-capacita-phalcon-mvc).
+### [Projeto MVC](https://github.com/agenciasys/as-capacita-phalcon-mvc#as-capacita-phalcon-mvc).
 
 
