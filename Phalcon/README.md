@@ -12,6 +12,23 @@
 8. Benchmark [link](https://docs.phalconphp.com/en/1.2.6/reference/benchmark/hello-world.html)
 8. [Documentação oficial do PHP](http://php.net/)
 
+# MVC
+
+MVC é um padrão de arquitetura de software que separa a informação (e as suas regras de negócio) da interface com a qual o usuário interage.
+É uma forma de estruturar seu projeto/aplicação de forma que a interface de interação (view) esteja separada do controle da informação em si (models), separação essa que é intermediada por uma outra camada controladora (controllers).
+
+Model (ou modelo)
+O model é a camada que representa os seus dados, provendo meios de acesso (leitura e escrita) à esses dados.
+
+Controller (ou controlador)
+No controller você tem métodos públicos que são chamados de actions, cada action é responsável por uma “página” do seu site/sistema. É o controller quem decide:
+Qual model usar;
+Quais pedidos fazer pro model;
+Qual combinação de views será usada para exibir os dados retornados pelo model.
+
+View (ou visualização)
+É na view que o seu sistema interage com o usuário. Tudo que ele ver (HTML / XML / RSS / CSV) deve ser gerado e exibido através dessa camada. A view, por sua vez, tem como responsabilidade:
+Manipular os dados para - e apenas para - exibição;
+Exibir os dados.
+
 ### [Projeto MVC](https://github.com/agenciasys/as-capacita-phalcon-mvc#as-capacita-phalcon-mvc).
-
-
