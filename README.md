@@ -14,3 +14,7 @@ Conheça mais sobre o projeto e suas datas clicando [aqui](http://www.agenciasys
 4. [Phalcon e MVC](https://github.com/agenciasys/as-capacita/blob/master/Phalcon/README.md#phalcon) - [Projeto MVC](https://github.com/agenciasys/as-capacita-phalcon-mvc#as-capacita-phalcon-mvc)
 5. [API REST - Webservices](https://github.com/agenciasys/as-capacita/tree/master/API-REST-Webservice#api-rest---webservices)
 6. [Phalcon Micro e Postman [Projeto]](https://github.com/agenciasys/as-capacita-phalcon-api#as-capacita-phalcon-api)
+
+### Projeto Final
+Desenvolver um CRUD, em formato de API REST, utilizando Phalcon e a ferramenta Postman para consumo desta API. 
+Exemplos: Agenda, Cadastro de clientes, Cadastro de produtos, Estoque, Biblioteca...
