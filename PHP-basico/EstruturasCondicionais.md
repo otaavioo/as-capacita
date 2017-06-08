@@ -17,7 +17,7 @@ if ($numero > 5) {
 
 ```
 
-### Aplicando um pouco de cleancode...
+### Aplicando um pouco de clean code...
 
 ```php
 <?php
