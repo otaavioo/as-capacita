@@ -17,6 +17,24 @@ if ($numero > 5) {
 
 ```
 
+### Aplicando um pouco de cleancode...
+
+```php
+<?php
+$numero = 5;
+$mensagem = 'O número é igual a 5';
+
+if ($numero > 5) {
+    $mensagem = 'O número é maior que 5';
+}
+
+if($numero < 5) {
+    $mensagem = 'O número é menor que 5';
+}
+
+echo $mensagem;
+```
+
 > Existe também a notação curta, com delimitadores `:` (dois pontos).
 
 ### switch ... case
