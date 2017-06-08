@@ -21,6 +21,7 @@ if ($numero > 5) {
 
 ```php
 <?php
+
 $numero = 5;
 $mensagem = 'O número é igual a 5';
 
